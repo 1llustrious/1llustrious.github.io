@@ -371,6 +371,10 @@ dfn {
   padding: 4px 8px;
   letter-spacing: 1.5px;
 }
+#toc-container {
+  max-height: 80vh; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
 html.show-mobile-nav {
   overflow: hidden;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
